@@ -1,7 +1,7 @@
 # pvm2950-remote
 Project to replace the Sony RM-854 remote for calibration of Sony PVM 2950
 
-##Background:
+## Background
 
 As described in the service manual of the Sony PVM 2950 / 2950Q / 2950QM, a Sony RM-854 remote is needed to enter the service mode. One has to set the PVM to standby and then enter the following key combination (p. 29 & 30 of the service manual):
 ### 'Screen Display' -> 'CH5' -> 'Volume+' -> 'Power'

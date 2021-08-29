@@ -1,0 +1,91 @@
+These codes were copied from https://gist.github.com/burk3/6ea991f774fb0c3db32759baa5e63dfb
+
+####################
+name  Sony_RM-854.1
+bits           12
+flags SPACE_ENC|CONST_LENGTH
+eps            30
+aeps          100
+
+header       2372   568
+one          1181   571
+zero          583   571
+gap          44407
+min_repeat      2
+toggle_bit_mask 0x0
+
+---CODES---
+power                    0xA90
+power_on                 0x750
+power_off                0xF50
+
+display                  0x5D0
+line_1                   0x030
+line_2                   0x830
+line_3                   0x430
+
+1                        0x010
+2                        0x810
+3                        0x410
+4                        0xC10
+5                        0x210
+6                        0xA10
+7                        0x610
+8                        0xE10
+9                        0x110
+0/10                     0x910
+11                       0x510
+12                       0xD10
+13                       0x310
+14                       0xB10
+15                       0x710
+
+y/c                      0xB30
+rgb                      0xC30
+
+select+                  0x2F0
+select-                  0xAF0
+menu                     0x070
+enter                    0xA70
+
+volume+                  0x490
+volume-                  0xC90
+muting                   0x290
+
+channel+                 0x090
+channel-                 0x890
+
+contrast+                0x190
+contrast-                0x990
+brightness+              0x790
+brightness-              0xF90
+aperture+                0x450
+aperture-                0xC50
+chroma+                  0x590
+chroma-                  0xD90
+phase+                   0x050
+phase-                   0x850
+
+
+
+####################
+name  Sony_RM-854.2
+bits           15
+flags SPACE_ENC|CONST_LENGTH
+eps            30
+aeps          100
+
+header       2389   554
+one          1196   556
+zero          600   556
+gap          44315
+min_repeat      2
+toggle_bit_mask 0x0
+
+---CODES---
+degauss                  0x3F25
+id_mode_on               0x1FEE
+id_mode_off              0x5FEE
+id_mode_set              0x3FEE
+
+
